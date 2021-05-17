@@ -34,22 +34,26 @@ nav {
 }
 
 section {
+  animation: fadeIn 0.5s;
   grid-area: section;
 }
 
 .container{
+  animation: fadeIn 0.5s;
   margin: 0.5em;
   background-color: rgb(31, 44, 24,0.9);
   color: #C4CFBE;
 }
 
 article {
+  animation: fadeIn 0.5s;
   background-color: #ddd;
   grid-area: article;
   background-color: rgba(31, 44, 24 ,0.9);
 }
 
 aside {
+  animation: fadeIn 0.5s;
   background-color: #ddd;
   grid-area: aside;
     background-color: rgba(31, 44, 24 ,0.9);
@@ -63,4 +67,8 @@ footer {
   background-color: #ddd;
   background-color: rgba(31, 44, 24,0.9);
 
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
 }
