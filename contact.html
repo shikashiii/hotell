@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hotell Naturell - Göteborgs finaste</title>
+  <link href="style.css" rel="stylesheet" />
+  <link href="grid-style.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="topnav"  id="myTopnav">
+    <a href="index.html" id="title"> Naturell</a>
+    <a href="index.html" id="hoverr">Start</a>
+    <a href="booking.html" id="hoverr">Boka</a>
+    <a href="find.html" id="hoverr">Hitta</a>
+    <a href="contact.html" class="active" id="hoverr">Kontakta</a>
+    <a href="about.html" id="hoverr">Om oss</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  </nav>
+  <section>
+    <div class="container">
+      <form action="/action_page.php">
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">Förnamn</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="fname" name="firstname" placeholder="Ditt förnamn...">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">Efternamn</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="lname" name="lastname" placeholder="Ditt efterman...">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="telephone">Telenfonnummer</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="telephone" name="telephone" placeholder="Ditt telefonnummer...">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="email">Email</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="email" name="email" placeholder="Din epost...">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="subject">Meddelande</label>
+          </div>
+          <div class="col-75">
+            <textarea id="subject" name="subject" placeholder="Skriv ditt meddelande här.." style="height:200px"></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <button class="button"><span>Submit </span></button>
+        </div>
+      </form>
+    </div>
+  </section>
+  <aside>
+    <h1>Kontaktinformation</h1>
+    <p>Email: <a href="mailto:hotellnaturell@gmail.com">hotellnaturell@gmail.com</a></p>
+    <p>Bentylgatan 11, 418 34 Göteborg</p>
+    <p>Magisk formel (Kontaktar Jonas Naturell direkt, använd endast vid nödlägen):</p>
+    <p id="magi">O sanctus dominus noster, <br><br>Salvos nos gratiam in conspectu sanctorum tuorum</p>
+  </aside>
+  <footer>
+    <p>Hotell Naturell | Under den största kantarellen | Bentylgatan 11, Göteborg</p>
+  </footer>
+
+  <script src="script-nav.js"></script>
+</body>
+
+</html>
