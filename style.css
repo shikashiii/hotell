@@ -130,10 +130,10 @@ h1#starttext {
   background-color: #ddd;
   color: black;
 }
-#hoverr {
+.hoverr {
   font-family: "Cairo", sans-serif;
 }
-#hoverr:hover {
+.hoverr:hover {
   animation: fadeIn 0.5s;
 }
 .active {
